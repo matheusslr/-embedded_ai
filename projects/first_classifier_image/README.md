@@ -5,7 +5,7 @@ Model cards are a succinct approach for documenting the creation, use, and short
 ## Model Details
 Matheus Santos and Igor Veríssimo created the model. A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN and MLP model. The big-picture of the data pipeline is shown below:
 
-<img width="800" src="fig/workflow.png">
+<img width="800" src="figs/workflow.png">
 
 ## Intended Use
 This model is used as a proof of concept for the evaluation of an entire data pipeline incorporating Machine Learning fundamentals. The data pipeline is composed of the following stages: a) ``fetch data``, b) ``preprocess``, c) <s>``check data``</s>, d) ``segregate``, e) ``train`` and f) ``test``.
@@ -17,7 +17,9 @@ that we can quickly train a KNN model and obtain initial results (no so good acc
 
 After the EDA stage of the data pipeline, it was noted that the images in training data has different resolutions. A pre-processing stage is necessary in order to normalize all images using the same size. 
 
-<img width="600" src="fig/EDA.png">
+<img width="600" src="figs/EDA.png">
+
+## Fining tune
 
 ## Evaluation Data
 The dataset under study is split into Train and Test during the ``Segregate`` stage of the data pipeline. 70% of the clean data is used to Train and the remaining 30% to Test. 
