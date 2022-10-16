@@ -1,3 +1,6 @@
 # Embedded Artificial Intelligence
 
 ![image](https://user-images.githubusercontent.com/54174040/189987526-8f7bade4-8c8e-4e57-beba-1b752bcb5344.png)
+
+## Abstracts & Projects
+- [TinyMLOps Operational Challenges for Widespread Edge AI Adoption](https://github.com/matheusslr/embedded_ai/tree/main/abstracts/TinyMLOps%20Operational%20Challenges%20for%20Widespread%20Edge%20AI%20Adoption)
