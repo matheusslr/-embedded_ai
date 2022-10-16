@@ -4,3 +4,4 @@
 
 ## Abstracts & Projects
 - [TinyMLOps Operational Challenges for Widespread Edge AI Adoption](https://github.com/matheusslr/embedded_ai/tree/main/abstracts/TinyMLOps%20Operational%20Challenges%20for%20Widespread%20Edge%20AI%20Adoption)
+- [First image classifier with k-NN and MLP](https://github.com/matheusslr/embedded_ai/tree/main/projects/first_classifier_image)
