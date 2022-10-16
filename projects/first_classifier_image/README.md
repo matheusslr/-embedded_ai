@@ -20,10 +20,16 @@ After the EDA stage of the data pipeline, it was noted that the images in traini
 <img width="600" src="figs/EDA.png">
 
 ## Tune Hyperparameters
-We use Weights & Biases Sweeps to automate hyperparameter search and explore the space of possible models to our MLP model. Sweeps combines the benefits of automated hyperparameter search with our visualization-rich, interactive experiment tracking. Pick from popular search methods such as Bayesian, grid search, and random to search the hyperparameter space. Our sweep configuration is shown below:
+We use Weights & Biases Sweeps to automate hyperparameter search and explore the space of possible models to our <strong>MLP model</strong>. Sweeps combines the benefits of automated hyperparameter search with our visualization-rich, interactive experiment tracking. Pick from popular search methods such as Bayesian, grid search, and random to search the hyperparameter space. Our sweep configuration is shown below:
 
-<img width="600" src="figs/sweep_config.png">
+<img width="400" src="figs/sweep_config.png">
+After 300 runs, our sweep agent arrived at the best configuration:
 
+        - hidden_layers: (152,152)
+        - activation = 'relu'
+        - solver = 'adam'
+        - learning_rate = 'adaptive'
+        - learning_rate_init = 0.0072125891006404545
 
 ## Evaluation Data
 The dataset under study is split into Train and Test during the ``Segregate`` stage of the data pipeline. 70% of the clean data is used to Train and the remaining 30% to Test. 
