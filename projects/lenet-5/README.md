@@ -56,7 +56,7 @@ The follow results will be shown:
 
 The figure below shows the results reached by exploration space of possible models to our LeNet-5 models.
 
-<img width="1000" src="figs/sweep_overview.jpg">
+<img width="600" src="figs/sweep_overview.jpg">
 
 Here's our classification report and confusion matrix, respectively:
 
