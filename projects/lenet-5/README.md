@@ -56,13 +56,13 @@ The follow results will be shown:
 
 The figure below shows the results reached by exploration space of possible models to our LeNet-5 models.
 
-<img width="600" src="figs/sweep_overview.png">
+<img width="600" src="figs/sweep_overview.jpg">
 
 Here's our classification report and confusion matrix, respectively:
 
-<img width="600" src="figs/classification_report.png">
+<img width="600" src="figs/classification_report.jpg">
 
-<img width="600" src="figs/confusion_matrix.png">
+<img width="600" src="figs/confusion_matrix.jpg">
 
 ## References
 - [Ivanovitch's repository](https://github.com/ivanovitchm/embedded.ai)
