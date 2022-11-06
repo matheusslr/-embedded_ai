@@ -3,7 +3,7 @@
 Model cards are a succinct approach for documenting the creation, use, and shortcomings of a model. The idea is to write a documentation such that a non-expert can understand the model card's contents. For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-Matheus Santos and Igor Veríssimo created the model. A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN and MLP model. The big-picture of the data pipeline is shown below:
+Matheus Santos and [Igor Dias](https://github.com/IgorDiasV) created the model. A complete data pipeline was built using Google Colab, Scikit-Learn and Weights & Bias to train a KNN and MLP model. The big-picture of the data pipeline is shown below:
 
 <img width="800" src="figs/workflow.png">
 
