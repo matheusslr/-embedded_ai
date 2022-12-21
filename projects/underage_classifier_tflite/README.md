@@ -3,7 +3,7 @@
 ## Context/Goal
 Computer vision is a field of artificial intelligence (AI) that enables computers and systems to derive meaningful information from digital images, videos, and other visual inputs—and take actions or make recommendations based on that information. If AI lets computers think, computer vision lets them see, observe, and understand.
 
-In this sense, we will use computer vision to infer whether the person in the image is of legal age or underage.
+In this sense, we, [Igor Dias](https://github.com/IgorDiasV) and me, will use computer vision to infer whether the person in the image is of legal age or underage.
 
 An example of an application that we could use our artificial intelligence would be for facial recognition of people under 18 years old, in order to restrict their access to inappropriate places for their age. For example: clubs, bars, etc.
 
@@ -44,9 +44,6 @@ The training parameters were:
 ## Results
 
 <img width="600" src="figs/model_acc.png">
-
-## Step by step
-
 
 ## References
 - [Ivanovitch's repository](https://github.com/ivanovitchm/embedded.ai)
