@@ -32,11 +32,21 @@ The training set includes 1392 samples (around 80%). While for the validation se
 ## Model
 The model was built on the Edge Impulse platform and the 2D convolutional network was chosen. The architecture of the model can be seen below:
 
-<img width="600" src="figs/model_plot.png">
+<img width="400" src="figs/model_plot.png">
+
+Different pre-trained models made available by the Edge Impulse platform were tested, such as MobileNetV1 and MobileNetV2, however, at the end of the training, the models exceeded the maximum amount of RAM of the Arduino Nano 33 BLE Sense (298 KB).
+
+## Parameters
+The training parameters were:
+- epochs: 50;
+- learning rate: 0.0005.
 
 ## Results
 
 <img width="600" src="figs/model_acc.png">
+
+## Step by step
+
 
 ## References
 - [Ivanovitch's repository](https://github.com/ivanovitchm/embedded.ai)
