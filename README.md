@@ -8,3 +8,4 @@
 ## Projects
 - [First image classifier with k-NN and MLP](https://github.com/matheusslr/embedded_ai/tree/main/projects/first_classifier_image)
 - [LeNet-5: exploration models with wandb sweep](https://github.com/matheusslr/embedded_ai/tree/main/projects/lenet-5)
+- [VGG-16: Predicting age-gender](https://github.com/matheusslr/embedded_ai/tree/main/projects/age_gender)
